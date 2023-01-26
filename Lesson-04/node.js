@@ -1,0 +1,12 @@
+const fs = require('fs-extra');
+fs.mkdirp("Folder1");
+fs.createFileSync("./Folder1/NewFile.txt");
+fs.mkdirp("Folder2");
+fs.moveSync("./Folder1/NewFile.txt", "./Folder2/NewFile.txt");
+fs.mkdirp("Folder3");
+fs.copySync("./Folder2/NewFile.txt", "./Folder3/NewFile.txt");
+fs.removeSync("./Folder3/NewFile.txt");
+fs.removeSync("./Folder3/NewFile.txt");
+fs.removeSync("Folder1");
+fs.removeSync("Folder2");
+fs.removeSync("Folder3");
