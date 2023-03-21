@@ -1,0 +1,17 @@
+{
+  "name": "lesson-16",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 20000"
+  },
+  "author": "Valery Maksimovich",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "asserts": "^4.0.2",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "selenium-webdriver": "^4.8.1"
+  }
+}
