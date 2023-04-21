@@ -1,0 +1,1949 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "object",
+      "properties": {
+        "leagues": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "integer"
+                },
+                "displayPriority": {
+                  "type": "object",
+                  "properties": {
+                    "position": {
+                      "type": "integer"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "position",
+                    "status"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "slug",
+                "name",
+                "region",
+                "image",
+                "priority",
+                "displayPriority"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "integer"
+                },
+                "displayPriority": {
+                  "type": "object",
+                  "properties": {
+                    "position": {
+                      "type": "integer"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "position",
+                    "status"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "slug",
+                "name",
+                "region",
+                "image",
+                "priority",
+                "displayPriority"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "integer"
+                },
+                "displayPriority": {
+                  "type": "object",
+                  "properties": {
+                    "position": {
+                      "type": "integer"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "position",
+                    "status"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "slug",
+                "name",
+                "region",
+                "image",
+                "priority",
+                "displayPriority"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "integer"
+                },
+                "displayPriority": {
+                  "type": "object",
+                  "properties": {
+                    "position": {
+                      "type": "integer"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "position",
+                    "status"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "slug",
+                "name",
+                "region",
+                "image",
+                "priority",
+                "displayPriority"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "integer"
+                },
+                "displayPriority": {
+                  "type": "object",
+                  "properties": {
+                    "position": {
+                      "type": "integer"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "position",
+                    "status"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "slug",
+                "name",
+                "region",
+                "image",
+                "priority",
+                "displayPriority"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "integer"
+                },
+                "displayPriority": {
+                  "type": "object",
+                  "properties": {
+                    "position": {
+                      "type": "integer"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "position",
+                    "status"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "slug",
+                "name",
+                "region",
+                "image",
+                "priority",
+                "displayPriority"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "integer"
+                },
+                "displayPriority": {
+                  "type": "object",
+                  "properties": {
+                    "position": {
+                      "type": "integer"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "position",
+                    "status"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "slug",
+                "name",
+                "region",
+                "image",
+                "priority",
+                "displayPriority"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "integer"
+                },
+                "displayPriority": {
+                  "type": "object",
+                  "properties": {
+                    "position": {
+                      "type": "integer"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "position",
+                    "status"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "slug",
+                "name",
+                "region",
+                "image",
+                "priority",
+                "displayPriority"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "integer"
+                },
+                "displayPriority": {
+                  "type": "object",
+                  "properties": {
+                    "position": {
+                      "type": "integer"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "position",
+                    "status"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "slug",
+                "name",
+                "region",
+                "image",
+                "priority",
+                "displayPriority"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "integer"
+                },
+                "displayPriority": {
+                  "type": "object",
+                  "properties": {
+                    "position": {
+                      "type": "integer"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "position",
+                    "status"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "slug",
+                "name",
+                "region",
+                "image",
+                "priority",
+                "displayPriority"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "integer"
+                },
+                "displayPriority": {
+                  "type": "object",
+                  "properties": {
+                    "position": {
+                      "type": "integer"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "position",
+                    "status"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "slug",
+                "name",
+                "region",
+                "image",
+                "priority",
+                "displayPriority"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "integer"
+                },
+                "displayPriority": {
+                  "type": "object",
+                  "properties": {
+                    "position": {
+                      "type": "integer"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "position",
+                    "status"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "slug",
+                "name",
+                "region",
+                "image",
+                "priority",
+                "displayPriority"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "integer"
+                },
+                "displayPriority": {
+                  "type": "object",
+                  "properties": {
+                    "position": {
+                      "type": "integer"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "position",
+                    "status"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "slug",
+                "name",
+                "region",
+                "image",
+                "priority",
+                "displayPriority"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "integer"
+                },
+                "displayPriority": {
+                  "type": "object",
+                  "properties": {
+                    "position": {
+                      "type": "integer"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "position",
+                    "status"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "slug",
+                "name",
+                "region",
+                "image",
+                "priority",
+                "displayPriority"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "integer"
+                },
+                "displayPriority": {
+                  "type": "object",
+                  "properties": {
+                    "position": {
+                      "type": "integer"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "position",
+                    "status"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "slug",
+                "name",
+                "region",
+                "image",
+                "priority",
+                "displayPriority"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "integer"
+                },
+                "displayPriority": {
+                  "type": "object",
+                  "properties": {
+                    "position": {
+                      "type": "integer"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "position",
+                    "status"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "slug",
+                "name",
+                "region",
+                "image",
+                "priority",
+                "displayPriority"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "integer"
+                },
+                "displayPriority": {
+                  "type": "object",
+                  "properties": {
+                    "position": {
+                      "type": "integer"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "position",
+                    "status"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "slug",
+                "name",
+                "region",
+                "image",
+                "priority",
+                "displayPriority"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "integer"
+                },
+                "displayPriority": {
+                  "type": "object",
+                  "properties": {
+                    "position": {
+                      "type": "integer"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "position",
+                    "status"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "slug",
+                "name",
+                "region",
+                "image",
+                "priority",
+                "displayPriority"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "integer"
+                },
+                "displayPriority": {
+                  "type": "object",
+                  "properties": {
+                    "position": {
+                      "type": "integer"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "position",
+                    "status"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "slug",
+                "name",
+                "region",
+                "image",
+                "priority",
+                "displayPriority"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "integer"
+                },
+                "displayPriority": {
+                  "type": "object",
+                  "properties": {
+                    "position": {
+                      "type": "integer"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "position",
+                    "status"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "slug",
+                "name",
+                "region",
+                "image",
+                "priority",
+                "displayPriority"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "integer"
+                },
+                "displayPriority": {
+                  "type": "object",
+                  "properties": {
+                    "position": {
+                      "type": "integer"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "position",
+                    "status"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "slug",
+                "name",
+                "region",
+                "image",
+                "priority",
+                "displayPriority"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "integer"
+                },
+                "displayPriority": {
+                  "type": "object",
+                  "properties": {
+                    "position": {
+                      "type": "integer"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "position",
+                    "status"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "slug",
+                "name",
+                "region",
+                "image",
+                "priority",
+                "displayPriority"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "integer"
+                },
+                "displayPriority": {
+                  "type": "object",
+                  "properties": {
+                    "position": {
+                      "type": "integer"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "position",
+                    "status"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "slug",
+                "name",
+                "region",
+                "image",
+                "priority",
+                "displayPriority"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "integer"
+                },
+                "displayPriority": {
+                  "type": "object",
+                  "properties": {
+                    "position": {
+                      "type": "integer"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "position",
+                    "status"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "slug",
+                "name",
+                "region",
+                "image",
+                "priority",
+                "displayPriority"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "integer"
+                },
+                "displayPriority": {
+                  "type": "object",
+                  "properties": {
+                    "position": {
+                      "type": "integer"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "position",
+                    "status"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "slug",
+                "name",
+                "region",
+                "image",
+                "priority",
+                "displayPriority"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "integer"
+                },
+                "displayPriority": {
+                  "type": "object",
+                  "properties": {
+                    "position": {
+                      "type": "integer"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "position",
+                    "status"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "slug",
+                "name",
+                "region",
+                "image",
+                "priority",
+                "displayPriority"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "integer"
+                },
+                "displayPriority": {
+                  "type": "object",
+                  "properties": {
+                    "position": {
+                      "type": "integer"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "position",
+                    "status"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "slug",
+                "name",
+                "region",
+                "image",
+                "priority",
+                "displayPriority"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "integer"
+                },
+                "displayPriority": {
+                  "type": "object",
+                  "properties": {
+                    "position": {
+                      "type": "integer"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "position",
+                    "status"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "slug",
+                "name",
+                "region",
+                "image",
+                "priority",
+                "displayPriority"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "integer"
+                },
+                "displayPriority": {
+                  "type": "object",
+                  "properties": {
+                    "position": {
+                      "type": "integer"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "position",
+                    "status"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "slug",
+                "name",
+                "region",
+                "image",
+                "priority",
+                "displayPriority"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "integer"
+                },
+                "displayPriority": {
+                  "type": "object",
+                  "properties": {
+                    "position": {
+                      "type": "integer"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "position",
+                    "status"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "slug",
+                "name",
+                "region",
+                "image",
+                "priority",
+                "displayPriority"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "integer"
+                },
+                "displayPriority": {
+                  "type": "object",
+                  "properties": {
+                    "position": {
+                      "type": "integer"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "position",
+                    "status"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "slug",
+                "name",
+                "region",
+                "image",
+                "priority",
+                "displayPriority"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "integer"
+                },
+                "displayPriority": {
+                  "type": "object",
+                  "properties": {
+                    "position": {
+                      "type": "integer"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "position",
+                    "status"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "slug",
+                "name",
+                "region",
+                "image",
+                "priority",
+                "displayPriority"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "integer"
+                },
+                "displayPriority": {
+                  "type": "object",
+                  "properties": {
+                    "position": {
+                      "type": "integer"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "position",
+                    "status"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "slug",
+                "name",
+                "region",
+                "image",
+                "priority",
+                "displayPriority"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "integer"
+                },
+                "displayPriority": {
+                  "type": "object",
+                  "properties": {
+                    "position": {
+                      "type": "integer"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "position",
+                    "status"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "slug",
+                "name",
+                "region",
+                "image",
+                "priority",
+                "displayPriority"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "integer"
+                },
+                "displayPriority": {
+                  "type": "object",
+                  "properties": {
+                    "position": {
+                      "type": "integer"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "position",
+                    "status"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "slug",
+                "name",
+                "region",
+                "image",
+                "priority",
+                "displayPriority"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "integer"
+                },
+                "displayPriority": {
+                  "type": "object",
+                  "properties": {
+                    "position": {
+                      "type": "integer"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "position",
+                    "status"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "slug",
+                "name",
+                "region",
+                "image",
+                "priority",
+                "displayPriority"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "integer"
+                },
+                "displayPriority": {
+                  "type": "object",
+                  "properties": {
+                    "position": {
+                      "type": "integer"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "position",
+                    "status"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "slug",
+                "name",
+                "region",
+                "image",
+                "priority",
+                "displayPriority"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "integer"
+                },
+                "displayPriority": {
+                  "type": "object",
+                  "properties": {
+                    "position": {
+                      "type": "integer"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "position",
+                    "status"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "slug",
+                "name",
+                "region",
+                "image",
+                "priority",
+                "displayPriority"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "integer"
+                },
+                "displayPriority": {
+                  "type": "object",
+                  "properties": {
+                    "position": {
+                      "type": "integer"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "position",
+                    "status"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "slug",
+                "name",
+                "region",
+                "image",
+                "priority",
+                "displayPriority"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "integer"
+                },
+                "displayPriority": {
+                  "type": "object",
+                  "properties": {
+                    "position": {
+                      "type": "integer"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "position",
+                    "status"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "slug",
+                "name",
+                "region",
+                "image",
+                "priority",
+                "displayPriority"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "region": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "integer"
+                },
+                "displayPriority": {
+                  "type": "object",
+                  "properties": {
+                    "position": {
+                      "type": "integer"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "position",
+                    "status"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "slug",
+                "name",
+                "region",
+                "image",
+                "priority",
+                "displayPriority"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "leagues"
+      ]
+    }
+  },
+  "required": [
+    "data"
+  ]
+}
