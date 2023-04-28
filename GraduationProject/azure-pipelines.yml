@@ -1,0 +1,74 @@
+resources:
+  pipelines:
+  - pipeline: e2e-mobile 
+    source: LMS365 Tests
+    trigger: true
+
+trigger: 
+- develop
+
+pool:
+  vmImage: windows-latest
+
+jobs:
+- job: IOS
+  displayName: IOS tests
+  steps:
+  - task: NodeTool@0
+    inputs:
+      versionSpec: '18.12.1'
+    displayName: 'Install Node.js'
+
+  - script: |
+      npm install
+      npm run build
+    displayName: 'npm install and build'
+    
+  - task: Npm@1
+    displayName: Run IOS tests
+    inputs:
+      command: 'custom'
+      workingDir: $(Build.SourcesDirectory)
+      customCommand: 'run smokeIOS'
+    
+  - task: O365PostMessageBuild@0
+    condition: failed()
+    inputs:
+      addressType: 'url'
+      url: 'https://elearningforce.webhook.office.com/webhookb2/7b353ac9-8c75-4dd1-8af7-689efd95bd8f@15b0dcd2-29de-4d87-89c0-5e2e6a8ff7d6/IncomingWebhook/baae34c304eb4a4faf19dc939e9da81e/3568882c-c9e9-4411-a9a1-b710f23fdfd5'
+      messageType: 'message'
+      title: 'IOS tests failed'
+      text: 'e2e IOS tests failed'
+      includeLink: true
+      linkText: 'Show error details'
+
+- job: Android
+  displayName: Android tests
+  steps:
+  - task: NodeTool@0
+    inputs:
+      versionSpec: '18.12.1'
+    displayName: 'Install Node.js'
+
+  - script: |
+      npm install
+      npm run build
+    displayName: 'npm install and build'
+    
+  - task: Npm@1
+    displayName: Run Android tests
+    inputs:
+      command: 'custom'
+      workingDir: $(Build.SourcesDirectory)
+      customCommand: 'run smokeAndroid'
+    
+  - task: O365PostMessageBuild@0
+    condition: failed()
+    inputs:
+      addressType: 'url'
+      url: 'https://elearningforce.webhook.office.com/webhookb2/7b353ac9-8c75-4dd1-8af7-689efd95bd8f@15b0dcd2-29de-4d87-89c0-5e2e6a8ff7d6/IncomingWebhook/baae34c304eb4a4faf19dc939e9da81e/3568882c-c9e9-4411-a9a1-b710f23fdfd5'
+      messageType: 'message'
+      title: 'Android tests failed'
+      text: 'e2e Android tests failed'
+      includeLink: true
+      linkText: 'Show error details'

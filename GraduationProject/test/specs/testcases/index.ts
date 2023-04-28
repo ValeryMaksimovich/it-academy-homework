@@ -1,0 +1,7 @@
+export * from './loginlogout/index.js'
+export * from './catalogpage/index.js'
+export * from './coursehomepage/index.js'
+export * from './courseplayer/index.js'
+export * from './dashboardpage/index.js'
+export * from './notificationpage/index.js'
+export * from './settingspage/index.js'

@@ -1,1 +1,7 @@
 .idea
+node_modules
+allure-results
+screenshots
+download
+build
+allure-report
