@@ -1,0 +1,10 @@
+{
+    "cSpell.words": [
+        "dashboardpage"
+    ],
+    "editor.formatOnType": false,
+    "editor.defaultFormatter": "ms-vscode.powershell",
+    "html.format.wrapAttributes": "auto",
+    "typescript.format.insertSpaceAfterTypeAssertion": true,
+    "powershell.codeFormatting.ignoreOneLineBlock": false
+}

@@ -1,0 +1,1 @@
+export * from './start-course-from-trainingpage.js'
